@@ -1,0 +1,1608 @@
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 04:45
+ restricted system commands enabled.
+**WM_Accessible_Presentation_LuaLaTeX.tex
+(./WM_Accessible_Presentation_LuaLaTeX.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/home/daniel/.texlive/texmf-var/lua
+tex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lu
+a".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/daniel/.texlive/texmf-var/lua
+tex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texmf-dist/
+tex/latex/latex-lab/documentmetadata-support.ltx
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphas
+e.sty
+Package: pdfmanagement-testphase 2026-01-23 v0.96y LaTeX PDF management bundle
+ (/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+Package: tagpdf-base 2026-01-29 v0.99y part of tagpdf - provide base, no-op ver
+sions of the user commands 
+\c@g__tag_MCID_abs_int=\count273
+\c@g__tag_struct_abs_int=\count274
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement.ltx
+File: pdfmanagement.ltx 2026-01-23 v0.96y PDF management code
+\g__pdfmanagement_EmbeddedFiles_int=\count275
+\l__pdfmeta_xmp_indent_int=\count276
+\g_pdffile_embed_pdfa_int=\count277
+\g_pdffile_embed_nonpdfa_int=\count278
+)))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count279
+Inserting `l3color' in `luaotfload.parse_color'.
+Inserting `l3opacity' in `luaotfload.parse_transparent'.)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend-testphase-lu
+atex.def
+File: l3backend-testphase-luatex.def 2026-01-23 v0.96y LaTeX PDF management bun
+dle backend support:PDFoutput(LuaTeX)
+\l__pdf_backend_tmpa_box=\box53
+\l__pdf_backend_tmpb_box=\box54
+\g__pdf_backend_resourceid_int=\count280
+\g__pdf_backend_name_int=\count281
+\g__pdf_backend_page_int=\count282
+Custom whatsit pdf_link_adjust_level = 1
+Inserting `linksplit' in `pre_shipout_filter'.
+Lua function pdflinkadjustlevel = 31)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-latest.sty
+Package: latex-lab-testphase-latest 2025-09-13 v0.1d latex-lab modules
+
+(/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging 
+\l__tag_tmpa_int=\count283
+\l__tag_tmpa_box=\box55
+\l__tag_tmpb_box=\box56
+\l__tag_loglevel_int=\count284
+\g__tag_unique_cnt_int=\count285
+\l__tag_tag_stop_int=\count286
+
+(/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf-luatex.def
+File: tagpdf-luatex.def 2026-01-29 v0.99y tagpdf driver for luatex
+luaotfload | db : Font names database loaded from /home/daniel/.texlive/texmf-va
+r/luatex-cache/generic/names/luaotfload-names.luc.gz
+Lua module: tagpdf 2026-01-29 v0.99y tagpdf lua code
+Lua-only attribute g__tag_mc_type_attr = 4
+Lua-only attribute g__tag_mc_cnt_attr = 5
+Lua-only attribute g__tag_structnum_attr = 6
+Lua-only attribute g__tag_interwordspaceOff_attr = 7
+Lua-only attribute g__tag_interwordspace_attr = 8
+Lua-only attribute g__tag_interwordfont_attr = 9
+Lua-only attribute l__tag_softhyphen_attr = 10
+Inserting `tagpdf.rewrite-softhyphen' in `pre_shaping_filter'.
+Inserting `tagpdf.rewrite-softhyphen' in `post_shaping_filter'.
+Inserting `tagpdf' in `linksplit'.)
+(/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-lua.sty
+Package: tagpdf-mc-code-lua 2026-01-29 v0.99y tagpdf - mc code only for the lua
+mode 
+)
+\g__tag_tree_id_pad_int=\count287
+\c@g__tag_parenttree_obj_int=\count288
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-mathml.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-book.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-lab.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+\g__tag_struct_AFobj_int=\count289
+\g__tag_para_begin_int=\count290
+\g__tag_para_end_int=\count291
+\g__tag_para_main_begin_int=\count292
+\g__tag_para_main_end_int=\count293
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-names.sty
+Package: latex-lab-testphase-names 2025-08-14 v0.8f Code related to the names o
+f tags
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-2.sty
+Package: latex-lab-testphase-new-or-2 2025-05-10 v0.86d Changes to the output r
+outine
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+File: latex-lab-footnotes.ltx 2025-07-04 v0.8o changes to the footnote interfac
+es
+\footnotemargin=\dimen147
+\g_fnote_id_int=\count294
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-block.sty
+Package: latex-lab-testphase-block 2025-07-26 v0.9k blockenv implementation
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-kernel-changes.sty
+Package: latex-lab-kernel-changes 2025-07-09 v0.85i General kernel and class ch
+anges
+
+(/usr/share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texmf-dist/tex/latex/latex-lab/glyphtounicode-cmex.tex))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-context.sty
+Package: latex-lab-testphase-context 2025-10-09 v0.5b Providing context for ins
+tance, etc.
+)
+
+LaTeX template Info: Declaring template type 'blockenv' taking 1 argument(s)
+(template)           on line 96.
+
+
+LaTeX template Info: Declaring template type 'block' taking 1 argument(s) on
+(template)           line 97.
+
+
+LaTeX template Info: Declaring template type 'para' taking 1 argument(s) on
+(template)           line 98.
+
+
+LaTeX template Info: Declaring template type 'list' taking 1 argument(s) on
+(template)           line 99.
+
+
+LaTeX template Info: Declaring template type 'item' taking 1 argument(s) on
+(template)           line 100.
+
+\c@maxblocklevels=\count295
+\l__par_start_skip=\skip49
+\l__block_botsep_skip=\skip50
+\l__block_parbotsep_skip=\skip51
+\l__block_parindent_dim=\dimen148
+\l__block_counter_start_int=\count296
+\l__block_one_label_box=\box57
+\g__block_labels_box=\box58
+\l__block_tmpa_skip=\skip52
+\l__block_topsepadd_skip=\skip53
+\l__block_effective_top_skip=\skip54
+LaTeX Info: Redefining \centering on input line 1476.
+LaTeX Info: Redefining \raggedleft on input line 1477.
+LaTeX Info: Redefining \raggedright on input line 1478.
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
+Package: latex-lab-testphase-sec 2025-10-20 v0.84k Code related to the tagging 
+of sectioning commands
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
+Package: latex-lab-testphase-toc 2025-07-02 v0.85h  Code related to the tagging
+ of toc-like lists
+\g__tag_toc_level_int=\count297
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-minipage.sty
+Package: latex-lab-testphase-minipage 2025-05-10 v0.81g Code related to the tag
+ging of minipages and parboxes
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-1.sty
+Package: latex-lab-testphase-new-or-1 2025-05-10 v0.85d Temporary output patche
+s for tagging and better link support -- no longer active
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-graphic.sty
+Package: latex-lab-testphase-graphic 2025-09-25 v0.80i Code related to the tagg
+ing of graphics
+\g__tag_graphic_int=\count298
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-float.sty
+Package: latex-lab-testphase-float 2025-10-17 v0.81l Code related to the taggin
+g of floats
+\g__tag_float_int=\count299
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib.sty
+Package: latex-lab-testphase-bib 2025-05-09 v0.81c Code related to the tagging 
+of bibliography and cite command
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.sty
+Package: latex-lab-testphase-text 2025-05-10 v0.85f Code related to the tagging
+ of various small text commands
+LaTeX Info: Redefining \mbox on input line 84.
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-marginpar.sty
+Package: latex-lab-testphase-marginpar 2025-07-23 v0.85h Changes related to the
+ tagging of the margin notes
+\g__kernel_marginpar_int=\count300
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-title.sty
+Package: latex-lab-testphase-title 2025-03-08 v0.85d Changes related to the tag
+ging of the title
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-table.sty
+Package: latex-lab-testphase-table 2025-08-01 v0.85s Code related to the taggin
+g of tables
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box59
+\extrarowheight=\dimen150
+\NC@list=\toks17
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box60
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.sty
+Package: latex-lab-testphase-math 2025-03-10 v0.8d code related to the math tag
+ging
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx
+File: latex-lab-math.ltx 2025-10-02 v0.6w Grab all the math(s) and tag it (expe
+riments)
+\l__math_tmpa_skip=\skip57
+\g__math_mathml_total_int=\count301
+\g__math_mathml_int=\count302
+\g__math_math_total_int=\count303
+\g__math_mathml_AF_found_int=\count304
+\g__math_mathml_AF_attached_int=\count305
+\l__math_tmpa_box=\box61
+\l__math_mathstyle_int=\count306
+\g__math_mathchoice_int=\count307
+\l__math_grab_env_int=\count308
+\g__math_postdisplaypenalty_int=\count309
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
+File: latex-lab-mathpkg.ltx 2025-06-20 v0.1c mathpkg adaptions
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
+File: latex-lab-mathintent.ltx 2025-08-03 v0.1c MathML intent attributes
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-firstaid.sty
+Package: latex-lab-testphase-firstaid 2025-11-03 v2025-11-03 Temporary patches 
+to external packages needed for the tagging project
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.sty
+Package: latex-lab-testphase-tikz 2025-09-27 v0.80d Code related to the tagging
+ of tikz pictures
+))
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid
+.sty
+Package: pdfmanagement-firstaid 2026-01-23 v0.96y LaTeX PDF management bundle /
+ firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+)
+Inserting `markspaces' in `pre_linebreak_filter'.
+Inserting `markspaces' in `hpack_filter'. (/usr/share/texmf-dist/tex/latex/ltx-
+talk/ltx-talk.cls
+Document Class: ltx-talk 2026-02-18 v0.4.6 A class for typesetting presentation
+s
+\l__talk_tmp_box=\box62
+\l__talk_fontsize_dim=\dimen151
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c__talk_paper_height_dim=\dimen152
+\c__talk_paper_width_dim=\dimen153
+
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks19
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen162
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count313
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count314
+\leftroot@=\count315
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count316
+\DOTSCASE@=\count317
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count318
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count319
+\dotsspace@=\muskip17
+\c@parentequation=\count320
+\dspbrk@lvl=\count321
+\tag@help=\toks21
+\row@=\count322
+\column@=\count323
+\maxfields@=\count324
+\andhelp@=\toks22
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks23
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
+File: latex-lab-amsmath.ltx 2025-09-29 v0.1i amsmath adaptions
+LaTeX Info: Redefining \eqref on input line 57.
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+)
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count325
+\l__fontspec_language_int=\count326
+\l__fontspec_strnum_int=\count327
+\l__fontspec_tmp_int=\count328
+\l__fontspec_tmpa_int=\count329
+\l__fontspec_tmpb_int=\count330
+\l__fontspec_tmpc_int=\count331
+\l__fontspec_em_int=\count332
+\l__fontspec_emdef_int=\count333
+\l__fontspec_strong_int=\count334
+\l__fontspec_strongdef_int=\count335
+\l__fontspec_tmpa_dim=\dimen171
+\l__fontspec_tmpb_dim=\dimen172
+\l__fontspec_tmpc_dim=\dimen173
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count336
+\calc@Bcount=\count337
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count338
+\calc@Cskip=\skip63
+)
+(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count339
+\l_MT_multwidth_dim=\dimen176
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen177
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen178
+\l_MT_above_intertext_sep=\dimen179
+\l_MT_below_intertext_sep=\dimen180
+\l_MT_above_shortintertext_sep=\dimen181
+\l_MT_below_shortintertext_sep=\dimen182
+\xmathstrut@box=\box65
+\xmathstrut@dim=\dimen183
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-mathtools.ltx
+File: latex-lab-mathtools.ltx 2024-07-13 v0.1a mathtools adaptions
+)
+(/usr/share/texmf-dist/tex/lualatex/lua-unicode-math/lua-unicode-math.sty
+Package: lua-unicode-math 2026-02-03 v0.7 Opentype Math support for LuaLaTeX
+\g__l_uni_math_font_count_int=\count340
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 162.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 162.
+\symlummain=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lummain' in version `bold'
+(Font)                  TU/lmm/m/n --> TU/lmm/b/n on input line 169.
+\mathfamattr=\attribute11
+Lua-only attribute leftroot = 12
+Lua-only attribute uproot = 13
+Inserting `lua-unicode-math' in `pre_mlist_to_hlist_filter'.
+Custom whatsit prime = 2
+Lua function prime_helper:w = 32
+Custom whatsit not = 3
+Lua function not = 33
+Custom whatsit dots = 4
+Lua function dots = 34
+Lua function __l_uni_math_set_previous_dots_type:w = 35
+Lua function __l_uni_math_set_mathstyle_mappings:NNNNNN = 36
+Lua function __l_uni_math_uproot:w = 37
+Lua function __l_uni_math_leftroot:w = 38
+Lua function __l_uni_math_is_integral_cp:wTF = 39
+Lua function __l_uni_math_every_math_size: = 40
+\g__l_uni_math_max_mathstyle_int=\count341
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)
+
+LaTeX template Info: Declaring template type 'lua-unicode-math-style' taking 0
+(template)           argument(s) on line 506.
+
+
+LaTeX template Info: Declaring template type 'lua-unicode-math-style-cmd'
+(template)           taking 1 argument(s) on line 507.
+
+)
+(/usr/share/texmf-dist/tex/latex/newcomputermodern/NewCMSans10-Regular.fontspec
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'NewCMSans10-Regular.otf(0)' created for
+(fontspec)             font 'NewCMSans10-Regular.otf' with options
+(fontspec)             [Ligatures=TeX,UprightFont={NewCMSans10-Regular.otf},Upr
+ightFeatures={SizeFeatures={{Size={-8},Font={NewCMSans08-Regular.otf}},{Size={8
+-},Font={NewCMSans10-Regular.otf}}}},ItalicFont={NewCMSans10-Oblique.otf},Itali
+cFeatures={SizeFeatures={{Size={-8},Font={NewCMSans08-Oblique.otf}},{Size={8-},
+Font={NewCMSans10-Oblique.otf}}}},BoldFont={NewCMSans10-Bold.otf},BoldFeatures=
+{SizeFeatures={{Size={0-},Font={NewCMSans10-Bold.otf}}}},BoldItalicFont={NewCMS
+ans10-BoldOblique.otf},BoldItalicFeatures={SizeFeatures={{Size={0-},Font={NewCM
+Sans10-BoldOblique.otf}}}},SlantedFont={NewCMSans10-Regular.otf},SlantedFeature
+s={SizeFeatures={{Size={-8},Font={NewCMSans08-Regular.otf}},{Size={8-},Font={Ne
+wCMSans10-Regular.otf}}}},BoldSlantedFont={NewCMSans10-Bold.otf},BoldSlantedFea
+tures={SizeFeatures={{Size={0-},Font={NewCMSans10-Bold.otf}}}},SwashFont={NewCM
+Sans10-Regular.otf},SwashFeatures={SizeFeatures={{Size={-8},Font={NewCMSans08-R
+egular.otf}},{Size={8-},Font={NewCMSans10-Regular.otf}}}},BoldSwashFont={NewCMS
+ans10-Bold.otf},BoldSwashFeatures={SizeFeatures={{Size={0-},Font={NewCMSans10-B
+old.otf}}}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;language
+=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;la
+nguage=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Oblique.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;"<8->"[NewCMSans10-Oblique.otf]:mode=node;script=latn;language
+=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Oblique.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;+smcp;"<8->"[NewCMSans10-Oblique.otf]:mode=node;script=latn;la
+nguage=dflt;+tlig;+smcp;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;language
+=dflt;+tlig;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;la
+nguage=dflt;+tlig;+smcp;"
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;language
+=dflt;+tlig;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=node;script=latn;lan
+guage=dflt;+tlig;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=node;script=latn;la
+nguage=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-BoldOblique.otf]:mode=node;script=latn
+;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-BoldOblique.otf]:mode=node;script=latn
+;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NewCMSans10-Regular.otf(1)' created for
+(fontspec)             font 'NewCMSans10-Regular.otf' with options
+(fontspec)             [UprightFont={NewCMSans10-Regular.otf},UprightFeatures={
+SizeFeatures={{Size={-8},Font={NewCMSans08-Regular.otf}},{Size={8-},Font={NewCM
+Sans10-Regular.otf}}}},ItalicFont={NewCMSans10-Oblique.otf},ItalicFeatures={Siz
+eFeatures={{Size={-8},Font={NewCMSans08-Oblique.otf}},{Size={8-},Font={NewCMSan
+s10-Oblique.otf}}}},BoldFont={NewCMSans10-Bold.otf},BoldFeatures={SizeFeatures=
+{{Size={0-},Font={NewCMSans10-Bold.otf}}}},BoldItalicFont={NewCMSans10-BoldObli
+que.otf},BoldItalicFeatures={SizeFeatures={{Size={0-},Font={NewCMSans10-BoldObl
+ique.otf}}}},SlantedFont={NewCMSans10-Regular.otf},SlantedFeatures={SizeFeature
+s={{Size={-8},Font={NewCMSans08-Regular.otf}},{Size={8-},Font={NewCMSans10-Regu
+lar.otf}}}},BoldSlantedFont={NewCMSans10-Bold.otf},BoldSlantedFeatures={SizeFea
+tures={{Size={0-},Font={NewCMSans10-Bold.otf}}}},SwashFont={NewCMSans10-Regular
+.otf},SwashFeatures={SizeFeatures={{Size={-8},Font={NewCMSans08-Regular.otf}},{
+Size={8-},Font={NewCMSans10-Regular.otf}}}},BoldSwashFont={NewCMSans10-Bold.otf
+},BoldSwashFeatures={SizeFeatures={{Size={0-},Font={NewCMSans10-Bold.otf}}}},Re
+nderer=Basic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language=dflt;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language
+=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Oblique.otf]:mode=base;script=latn;lan
+guage=dflt;"<8->"[NewCMSans10-Oblique.otf]:mode=base;script=latn;language=dflt;
+"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Oblique.otf]:mode=base;script=latn;lan
+guage=dflt;+smcp;"<8->"[NewCMSans10-Oblique.otf]:mode=base;script=latn;language
+=dflt;+smcp;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language=dflt;
+"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language
+=dflt;+smcp;"
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language=dflt;
+"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <-8>"[NewCMSans08-Regular.otf]:mode=base;script=latn;lan
+guage=dflt;+smcp;"<8->"[NewCMSans10-Regular.otf]:mode=base;script=latn;language
+=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-BoldOblique.otf]:mode=base;script=latn
+;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-BoldOblique.otf]:mode=base;script=latn
+;language=dflt;+smcp;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <0->"[NewCMSans10-Bold.otf]:mode=base;script=latn;langua
+ge=dflt;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/NewCMSans10-Regular.otf(1)/m/n on inp
+ut line 232.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  TU/lmr/m/it --> TU/NewCMSans10-Regular.otf(1)/m/it on i
+nput line 232.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  TU/lmr/bx/n --> TU/NewCMSans10-Regular.otf(1)/b/n on in
+put line 232.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  TU/lmss/m/n --> TU/NewCMSans10-Regular.otf(1)/m/n on in
+put line 232.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/bx/n --> TU/NewCMSans10-Regular.otf(1)/b/n on i
+nput line 232.
+
+Package fontspec Info: 
+(fontspec)             Font family 'NewCMSansMath-Regular.otf(0)' created for
+(fontspec)             font 'NewCMSansMath-Regular.otf' with options
+(fontspec)             [Script=Math,Renderer=Base].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[NewCMSansMath-Regular.otf]:mode=base;script=math;la
+nguage=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NewCMSansMath-Regular.otf(1)' created for
+(fontspec)             font 'NewCMSansMath-Regular.otf' with options
+(fontspec)             [Script=Math,Renderer=Base,Style=MathScript].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[NewCMSansMath-Regular.otf]:mode=base;script=math;la
+nguage=dflt;+ssty=0;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'NewCMSansMath-Regular.otf(2)' created for
+(fontspec)             font 'NewCMSansMath-Regular.otf' with options
+(fontspec)             [Script=Math,Renderer=Base,Style=MathScriptScript].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[NewCMSansMath-Regular.otf]:mode=base;script=math;la
+nguage=dflt;+ssty=1;"
+
+LaTeX Font Info:    Redeclaring symbol font `lummain' on input line 233.
+LaTeX Font Info:    Overwriting symbol font `lummain' in version `normal'
+(Font)                  TU/lmm/m/n --> TU/NewCMSansMath-Regular.otf(0)/m/n on i
+nput line 233.
+LaTeX Font Info:    Overwriting symbol font `lummain' in version `bold'
+(Font)                  TU/lmm/b/n --> TU/NewCMSansMath-Regular.otf(0)/m/n on i
+nput line 233.
+LaTeX Font Info:    Overwriting symbol font `lummain' in version `bold'
+(Font)                  TU/NewCMSansMath-Regular.otf(0)/m/n --> TU/NewCMSansMat
+h-Regular.otf(0)/b/n on input line 233.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks25
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count342
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count343
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen184
+\Hy@linkcounter=\count344
+\Hy@pagecounter=\count345
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count346
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count347
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen185
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count348
+\Field@Width=\dimen186
+\Fld@charsize=\dimen187
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count349
+\c@Item=\count350
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2026-01-23 v0.96y generic Hyperref driver for the 
+LaTeX PDF management bundle
+
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-colorschemes.
+def)
+LaTeX Info: Redefining \href on input line 262.
+LaTeX Info: Redefining \url on input line 348.
+\l__hyp_tmpa_box=\box66
+\l__hyp_tmpa_int=\count351
+\l__hyp_dest_box=\box67
+\g__hyp_linknestlevel_int=\count352
+\HyAnn@Count=\count353
+\Fld@listcount=\count354
+\Hy@SectionHShift=\skip65
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+)
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/xcolor-patches-tmp-ltx
+.sty
+Package: xcolor-patches-tmp-ltx 2026-01-23 v0.96y patch xcolor for l3color
+)
+\g__talk_pauses_int=\count355
+\l__talk_slide_box=\box68
+\g__talk_slide_int=\count356
+\g__talk_frame_struct_int=\count357
+\g__talk_saved_equation_int=\count358
+\g__talk_saved_footnote_int=\count359
+\g__talk_saved_mpfootnote_int=\count360
+\g__talk_saved_parentequation_int=\count361
+
+LaTeX template Info: Declaring template type 'footer-element' taking 1
+(template)           argument(s) on line 732.
+
+\l__talk_footelem_left_skip=\dimen188
+\l__talk_footelem_right_skip=\dimen189
+
+LaTeX template Info: Declaring template type 'header' taking 0 argument(s) on
+(template)           line 767.
+
+\l__talk_header_ht_dim=\dimen190
+\l__talk_header_left_skip=\skip66
+\l__talk_header_right_skip=\skip67
+
+LaTeX template Info: Declaring template type 'footer' taking 0 argument(s) on
+(template)           line 814.
+
+\l__talk_footer_left_skip=\dimen191
+\l__talk_footer_right_skip=\dimen192
+\g__talk_frame_int=\count362
+\l__talk_column_int=\count363
+\g__talk_column_int=\count364
+
+LaTeX template Info: Declaring template type 'floatenv' taking 2 argument(s)
+(template)           on line 1120.
+
+\c@figure=\count365
+\g__talk_saved_figure_int=\count366
+\c@table=\count367
+\g__talk_saved_table_int=\count368
+\abovecaptionskip=\skip68
+\belowcaptionskip=\skip69
+\g__talk_footnote_box=\box69
+\l__talk_shuffle_skip=\skip70
+
+LaTeX template Info: Declaring template type 'hidden' taking 0 argument(s) on
+(template)           line 1289.
+
+\l__talk_overprint_int=\count369
+ (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
+)
+
+LaTeX template Info: Declaring template type 'frametitle' taking 1 argument(s)
+(template)           on line 1693.
+
+\l__talk_frametitle_after_skip=\skip71
+\l__talk_frametitle_before_skip=\skip72
+\c@section=\count370
+\g__talk_saved_section_int=\count371
+\c@subsection=\count372
+\g__talk_saved_subsection_int=\count373
+\c@subsubsection=\count374
+\g__talk_saved_subsubsection_int=\count375
+
+LaTeX template Info: Declaring template type 'titlepage-element' taking 1
+(template)           argument(s) on line 2172.
+
+\l__talk_titlelem_after_skip=\dimen195
+\l__talk_titlelem_before_skip=\dimen196
+
+LaTeX template Info: Declaring template type 'titlepage' taking 0 argument(s)
+(template)           on line 2222.
+
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box70
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count376
+\c@pgf@countb=\count377
+\c@pgf@countc=\count378
+\c@pgf@countd=\count379
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count380
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count381
+\pgfsyssoftpath@bigbuffer@items=\count382
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count383
+\pgfmath@box=\box71
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count384
+))
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count385
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen284
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen288
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count386
+\pgf@shadingcount=\count387
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box75
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box76
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count388
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count389
+\tikznumberofchildren=\count390
+\tikznumberofcurrentchild=\count391
+\tikz@fig@count=\count392
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count393
+\pgfmatrixcurrentcolumn=\count394
+\pgf@matrix@numberofcolumns=\count395
+)
+\tikz@expandcount=\count396
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen303
+\pgfarrowlength=\dimen304
+\pgfarrowwidth=\dimen305
+\pgfarrowlinewidth=\dimen306
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen307
+\lightrulewidth=\dimen308
+\cmidrulewidth=\dimen309
+\belowrulesep=\dimen310
+\belowbottomsep=\dimen311
+\aboverulesep=\dimen312
+\abovetopsep=\dimen313
+\cmidrulesep=\dimen314
+\cmidrulekern=\dimen315
+\defaultaddspace=\dimen316
+\@cmidla=\count397
+\@cmidlb=\count398
+\@aboverulesep=\dimen317
+\@belowrulesep=\dimen318
+\@thisruleclass=\count399
+\@lastruleclass=\count400
+\@thisrulewidth=\dimen319
+)
+
+LaTeX template Info: Declaring instance 'header' of type frametitle on line
+(template)           128.
+
+
+LaTeX template Info: Declaring instance 'std' of type footer on line 137.
+
+
+LaTeX template Info: Declaring instance 'title' of type titlepage-element on
+(template)           line 153.
+
+
+LaTeX template Info: Declaring instance 'subtitle' of type titlepage-element
+(template)           on line 154.
+
+
+LaTeX template Info: Declaring instance 'author' of type titlepage-element on
+(template)           line 155.
+
+
+LaTeX template Info: Declaring instance 'institute' of type titlepage-element
+(template)           on line 156.
+
+
+LaTeX template Info: Declaring instance 'date' of type titlepage-element on
+(template)           line 157.
+
+
+(/usr/share/texmf-dist/tex/lualatex/luamml/luamml.sty
+Package: luamml 2026-02-27 v0.8.0 Automatically generate presentational MathML 
+from LuaTeX math expressions
+\l__luamml_flag_int=\count401
+\l__luamml_pretty_int=\count402
+\tracingmathml=\count403
+Lua function RegisterFamilyMapping = 42
+Lua function RegisterTextFamily = 43
+Inserting `dump_list' in `pre_mlist_to_hlist_filter'.
+Lua function luamml_get_last_mathml_stream:e = 44
+Lua function luamml_begin_single_file: = 45
+Lua function luamml_end_single_file: = 46
+Lua function __luamml_register_output_hook:N = 47
+Lua function __luamml_disable_output_hook: = 48
+Lua function __luamml_annotate_begin: = 49
+Lua function __luamml_annotate_end:we = 50
+Lua function __luamml_annotate_end:e = 51
+Lua function __luamml_annotate_attribute_end:e = 52
+Inserting `mathml amsmath processing' in `hpack_filter'.
+Lua function __luamml_array_init_col: = 53
+Lua function __luamml_array_finalize_col:w = 54
+Lua function __luamml_array_save_array: = 55
+Lua function __luamml_array_finalize_array: = 56
+\l__luamml_amsmath_tag_struct_num_int=\count404
+
+(/usr/share/texmf-dist/tex/lualatex/luamml/luamml-patches-kernel.sty
+Package: luamml-patches-kernel 2026-02-27 v0.8.0 Feel free to add a description
+ here
+)
+(/usr/share/texmf-dist/tex/lualatex/luamml/luamml-patches-amsmath.sty
+Package: luamml-patches-amsmath 2026-02-27 v0.8.0 Feel free to add a descriptio
+n here
+Lua function __luamml_amsmath_add_last_to_row: = 57
+Lua function __luamml_amsmath_add_box_to_row: = 58
+Lua function __luamml_amsmath_set_row_columnalign:n = 59
+Lua function __luamml_amsmath_save_inner_table:n = 60
+Lua function __luamml_amsmath_save_smallmatrix: = 61
+Lua function __luamml_amsmath_finalize_inner_table: = 62
+Lua function __luamml_amsmath_finalize_table:n = 63
+Lua function __luamml_amsmath_save_tag: = 64
+Lua function __luamml_amsmath_save_tag_with_struct_elem:N = 65
+Lua function __luamml_amsmath_set_tag: = 66
+Lua function __luamml_amsmath_save_intertext_with_struct_elem:N = 67))
+(/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count405
+))
+
+LaTeX template Info: Declaring instance 'basic' of type item on line 192.
+
+
+LaTeX template Info: Declaring instance 'description' of type item on line
+(template)           192.
+
+
+(./WM_Accessible_Presentation_LuaLaTeX.aux)
+\openout1 = WM_Accessible_Presentation_LuaLaTeX.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+Inserting `tagpdf' in `pre_shipout_filter'.
+Inserting `tagpdf' in `pre_shipout_filter'.
+
+LaTeX template Info: Declaring instance 'wallpaper' of type header on line
+(template)           192.
+
+
+LaTeX template Info: Declaring instance 'wallpaper' of type footer on line
+(template)           192.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 448.92128pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 233.31262pt, 22.76219pt)
+* \paperwidth=505.82677pt
+* \paperheight=284.52756pt
+* \textwidth=448.92128pt
+* \textheight=233.31262pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-77.96053pt
+* \headheight=28.45274pt
+* \headsep=5.69054pt
+* \topskip=11.0pt
+* \footskip=17.07164pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=0.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 192.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count406
+\scratchdimen=\dimen320
+\scratchbox=\box81
+\nofMPsegments=\count407
+\nofMParguments=\count408
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count409
+\MPscratchDim=\dimen321
+\MPnumerator=\count410
+\makeMPintoPDFobject=\count411
+\everyMPtoPDFconversion=\toks39
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\g__math_luamml_iow=\write4
+
+\openout4 = WM_Accessible_Presentation_LuaLaTeX-luamml-mathml.html
+
+
+Package tagpdf Info: luamml has been enabled and will create an MathML file.
+
+<logo-assets/wm-cipher-crest-white.png, id=31, 1027.84pt x 1025.8325pt>
+File: logo-assets/wm-cipher-crest-white.png Graphic file (type png)
+<use logo-assets/wm-cipher-crest-white.png>
+Package luatex.def Info: logo-assets/wm-cipher-crest-white.png  used on input l
+ine 203.
+(luatex.def)             Requested size: 51.3009pt x 51.21504pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./logo-assets/wm-cipher-cr
+est-white.png>] (./WM_Accessible_Presentation_LuaLaTeX.toc)
+<logo-assets/wm-logo-color.png, id=65, 317.988pt x 87.4467pt>
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 209.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [2
+
+<./logo-assets/wm-logo-color.png>]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 219.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [3
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 233.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [4
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 248.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [5
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 263.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [6
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 275.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [7
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 299.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [8
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 334.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [9
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 351.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [10
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 377.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [11
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 385.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [12
+
+]
+File: logo-assets/wm-logo-color.png Graphic file (type png)
+<use logo-assets/wm-logo-color.png>
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 390.
+
+(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
+ [13
+
+]
+\tf@toc=\write5
+
+\openout5 = WM_Accessible_Presentation_LuaLaTeX.toc
+<<latex-list-css.html>><<latex-align-css.html>> (./WM_Accessible_Presentation_L
+uaLaTeX.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~401 structure objects
+(tagpdf)             with ~271 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+)
+
+Here is how much of LuaTeX's memory you used:
+ 35560 strings out of 476076
+ 125049,1648299 words of node,token memory allocated
+ 589 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 30 attribute, 58 glue_spec
+, 13 attribute_list, 3 write nodes
+   avail lists: 2:2389,3:510,4:90,5:120,6:30,7:1830,8:28,9:252,10:20,11:116
+ 57077 multiletter control sequences out of 65536+600000
+ 62 fonts using 25821799 bytes
+ 136i,11n,108p,480b,1396s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSans10-Obliq
+ue.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSansM
+ath-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/N
+ewCMSansMath-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmmono1
+0-regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/New
+CMSans08-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
+ern/NewCMSans10-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomp
+utermodern/NewCMSans10-Bold.otf>
+Output written on WM_Accessible_Presentation_LuaLaTeX.pdf (13 pages, 150913 byte
+s).
+
+PDF statistics: 657 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 41 named destinations out of 1000 (max. 1048576)
+ 2283 words of extra memory for PDF output out of 10000 (max. 100000000)
+

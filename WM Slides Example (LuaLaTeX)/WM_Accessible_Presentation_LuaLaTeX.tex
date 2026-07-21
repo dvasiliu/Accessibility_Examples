@@ -1,0 +1,392 @@
+% This template intentionally does NOT use the beamer class. We have to use ltx-talk 
+% for accessibility
+
+\DocumentMetadata{
+	tagging=on,
+	pdfstandard = ua-2,
+	pdfversion  = 2.0,
+	lang        = en-US,
+	tagging-setup={
+		math/alt/use,
+		math/setup=mathml-SE
+	}
+}
+
+\documentclass[aspect-ratio=16:9]{ltx-talk}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, calc, shapes.geometric}
+% amsmath and its math fonts (via unicode-math for LuaTeX) are already
+% loaded by ltx-talk; loading amssymb here would redefine symbols that
+% unicode-math already provides and error out.
+\usepackage{booktabs}
+\usepackage{array}
+
+% --- William & Mary color palette ---
+% Hex values follow the live official palette at
+% wm.edu/brand/visual-brand/color-palette (fetched 2026-07-21), which
+% supersedes the older hex values in third-party templates such as
+% https://github.com/leadmocha/beamer_template_WM . Per that page,
+% Primary/Secondary colors should cover ~70-80% of the color space;
+% Tertiary colors are accents only, capped at ~10-15%. Spirit Gold is
+% never paired with W&M Gold in the same design.
+\definecolor{WMGreen}{HTML}{004E38}      % Primary: core brand green
+\definecolor{WMGold}{HTML}{B79257}       % Primary: core brand gold
+\definecolor{WMSpiritGold}{HTML}{FDB714} % Spirit palette accent; not used with WMGold
+\definecolor{WMSilver}{HTML}{D8DCDB}     % Primary: supporting neutral
+
+% Secondary/Tertiary accents for the "better vs. weaker" feedback example
+% later. GriffinGreen is an official Secondary green (an enhancement
+% tone, distinct from WMGreen); BrickRed is an official Tertiary accent.
+% Both are used here, rather than WMGold, because WMGold on white is
+% only about 2.9:1 contrast and fails WCAG AA (needs 4.5:1) -- see the
+% note below.
+\definecolor{GriffinGreen}{HTML}{28463D}
+\definecolor{BrickRed}{HTML}{964A37}
+
+% ltx-talk exposes its role colors through \DeclareColor rather than
+% beamer's \setbeamercolor. "structure" drives frame titles, block
+% titles, itemize bullets, and table-of-contents entries; "alert" drives
+% \alert{...}; "example" is a second accent used below for a contrasting
+% block. WMGold is kept out of this list on purpose: at ~2.9:1 contrast
+% against white it fails WCAG AA (needs 4.5:1) even set in bold, so it
+% only appears here as a non-text accent (the TikZ diagram's warning
+% color), never as the sole color of readable text.
+\DeclareColor{structure}{WMGreen}
+\DeclareColor{alert}{BrickRed}
+\DeclareColor{example}{GriffinGreen}
+
+% Start frame content right under the title instead of the class default
+% of vertically centering it in the remaining space.
+\SetKeys[talk]{frame/vertical-alignment=top}
+
+% --- Logo -----------------------------------------------------------------
+% Both marks were extracted from the official WM_Simple_PPT_Template_2026.potx
+% (a .potx is just a zip archive; the brand assets live under ppt/media/) --
+% see the README for the extraction command and the other marks that came
+% out of it. The logo is purely decorative in both spots below -- the
+% institution is already named as real text via \institute{} and the
+% footer -- so it is tagged as a non-content artifact rather than a Figure
+% needing alt text. Note the key is lowercase \texttt{tag=artifact}: the
+% graphics-tagging code matches that literal string, and a capitalized
+% \texttt{Artifact} silently falls through to being treated as a custom
+% struct name that still demands alt text.
+\newcommand{\wmLogoColorFile}{logo-assets/wm-logo-color.png}
+\newcommand{\wmLogoHeight}{0.22cm}
+
+% Small monogram tucked immediately left of the footer's date text on
+% every content page (see \EditInstance{footer}{std} below). \Gm@lmargin
+% (1cm here) is where that text starts, so the box below right-aligns the
+% mark inside [0cm, 1cm - 0.08cm], leaving a small gap before the text.
+% \IfFileExists keeps the deck compiling cleanly if the file is missing.
+\newcommand{\wmPutLogoBox}[3]{% #1 file, #2 y, #3 box width measured from the left paper edge
+	\IfFileExists{#1}
+		{\put(0cm,#2){\makebox[#3][r]{\includegraphics[tag=artifact, height=\wmLogoHeight]{#1}}}}
+		{}
+}
+
+% "current/total" page count, flush against the right margin. The
+% built-in "framenumber" footer-element can't sit flush right: ltx-talk's
+% footer template always appends one trailing \hfil after the last
+% element (to let it distribute slack for centering), which pulls the
+% last item back from the edge rather than pinning it there -- no
+% element-order/separator combination avoids that. So this is drawn the
+% same way as the corner logo above: an absolute box ending exactly at
+% \Gm@rmargin (1cm), on the footer's own baseline. \@framenumber and
+% \@totalframes are the same class-provided macros the (now unused)
+% "framenumber"/"totalframes" footer-elements would have displayed.
+\makeatletter
+\newcommand{\wmPutPageCount}{%
+	\put(0cm,-9.8cm){\makebox[\dimexpr\paperwidth-1cm\relax][r]{\color{WMGreen}\tiny\@framenumber/\@totalframes}}%
+}
+\makeatother
+
+% A thin green top bar on every page, echoing the reference theme's plain
+% frame background (a slim WMGreen rule along the top edge), plus the
+% corner logo and page count above. This hooks into the kernel's
+% shipout/background hook -- the same mechanism the class's own
+% \pagecolor uses -- so it only paints the page canvas and never touches
+% the tag tree. The footer's baseline sits 0.2cm above the bottom edge
+% (bmargin 0.8cm minus footskip 0.6cm), hence -9.8cm below. Skipped on
+% the title page (\ifwmTitlePage, toggled around \maketitle below): that
+% page is filled solid WMGreen, and this bar/logo/count are drawn in
+% WMGreen too, so they'd render but be genuinely invisible -- same color
+% as the background underneath them.
+\newif\ifwmTitlePage
+\AddToHook{shipout/background}
+	{\ifwmTitlePage\else
+	 \color{WMGreen}\put(0cm,-3mm){\rule{\paperwidth}{3mm}}%
+	 \wmPutLogoBox{\wmLogoColorFile}{-9.8cm}{0.92cm}%
+	 \wmPutPageCount
+	 \fi}
+
+% Frame titles are set larger and bolder, closer to the reference's
+% ~20pt frame-title scale. Color stays WMGreen rather than the
+% reference's WMGold: gold frame titles on a plain white page only
+% reach about 2.9:1 contrast, short of the 3:1 WCAG AA floor even for
+% large bold text.
+\EditInstance{frametitle}{header}{font=\bfseries\Large}
+
+% A two-part footer (date, title) echoing the reference theme's footline
+% layout, recolored WMGreen for visibility (the reference sets the
+% page-number element to WMWhite on the plain page background, which
+% would be unreadable outside its own colored footer band). The page
+% count is no longer part of this templated footer -- see
+% \wmPutPageCount above.
+\EditInstance{footer}{std}
+	{element-order={date,title}, color=WMGreen}
+
+% A two-tone banner, closer to the reference theme's gold-title /
+% green-body block boxes, but keeping every text color at a safe
+% contrast: black-on-gold (~7.6:1) and white-on-green (~8.5:1) both
+% clear WCAG AA. Only the title becomes a colored banner; the body text
+% below it is left as ordinary, plainly-tagged paragraph or list
+% content rather than being wrapped in a colored box itself.
+\newcommand{\wmblocktitle}[3]{%
+	\par\noindent
+	\colorbox{#1}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\color{#2}\bfseries\large #3}}%
+	\par\vspace{4pt}%
+}
+
+% White title-page text, since the title page now gets a full WMGreen
+% background (see the \AddToHookNext call just before \maketitle).
+\EditInstance{titlepage-element}{title}{color=white, font=\bfseries\Huge}
+\EditInstance{titlepage-element}{subtitle}{color=white, font=\Large}
+\EditInstance{titlepage-element}{author}{color=white}
+\EditInstance{titlepage-element}{institute}{color=white}
+\EditInstance{titlepage-element}{date}{color=white}
+
+% A crest between the subtitle and author lines (see the element-order
+% passed to \maketitle below), using the ornate crown-and-cipher mark
+% extracted from the .potx rather than the flat monogram used in the
+% footer -- see the README. ltx-talk's titlepage-element instances read
+% their content from a metadata token list named after the element
+% (\@title, \@subtitle, ...), so "logo" needs a matching \@logo.
+\newcommand{\wmCipherFile}{logo-assets/wm-cipher-crest-white.png}
+\DeclareInstance{titlepage-element}{logo}{talk}{before-skip=0.5em, after-skip=0.5em}
+\makeatletter
+\ExplSyntaxOn
+\tl_new:N \@logo
+\tl_gset:Nn \@logo
+	{
+		\IfFileExists{\wmCipherFile}
+			{\includegraphics[tag=artifact, height=1.8cm]{\wmCipherFile}}
+			{}
+	}
+\ExplSyntaxOff
+\makeatother
+
+\hypersetup{
+	pdftitle={Accessible LuaLaTeX Presentation Template},
+	pdfauthor={Author},
+	pdfsubject={Example accessible ltx-talk presentation styled for William & Mary},
+	pdfkeywords={accessibility, tagged PDF, PDF/UA-2, LuaLaTeX, ltx-talk, William & Mary}
+}
+
+\title{Accessible Presentations with LuaLaTeX}
+\subtitle{A tagged-PDF Template}
+\author{Author}
+\institute{William \& Mary}
+\date{Summer Semester}
+
+\begin{document}
+
+% Fill just the title page with WMGreen, echoing the reference theme's
+% green title-page background. \AddToHookNext fires this exactly once,
+% on the very next shipout, so later pages are unaffected. framestyle=
+% plain drops the class's own std footer/header (date/title text,
+% WMGreen) for this one page -- like the bar/logo/count above, it would
+% otherwise render invisibly on top of the same-colored fill.
+\wmTitlePagetrue
+\AddToHookNext{shipout/background}
+	{\color{WMGreen}\put(0cm,-\paperheight){\rule{\paperwidth}{\paperheight}}}
+\maketitle[element-order={title,subtitle,logo,author,institute,date}, framestyle=plain]
+\wmTitlePagefalse
+
+\begin{frame}
+	\frametitle{Outline}
+	\tableofcontents
+\end{frame}
+
+\section{Foundations}
+
+\begin{frame}
+	\frametitle{Why This Template Exists}
+	Slides often look polished while hiding their structure from assistive technology. This template compiles with LuaLaTeX to a tagged PDF/UA-2 file that exposes the same organization to a screen reader that a sighted viewer sees on screen.
+
+	\wmblocktitle{WMGold}{black}{Key idea}
+	An accessible slide deck exposes real headings, real lists, real tables, and real math, not just visual layout that looks like them.
+\end{frame}
+
+\begin{frame}
+	\frametitle{A Note on Overlays}
+	This template avoids \texttt{\textbackslash pause} and other overlay reveals on purpose.
+
+	\begin{itemize}
+		\item Each overlay step becomes a separate output page.
+		\item A screen reader then encounters the same slide several times in a row, with only small differences.
+		\item Every frame here is written as one complete, final page instead.
+	\end{itemize}
+
+	\wmblocktitle{BrickRed}{white}{If you do use overlays}
+	Check the tagged reading order afterward: duplicated near-identical pages are confusing without sight.
+\end{frame}
+
+\section{Structure and Math}
+
+\begin{frame}
+	\frametitle{Headings Create Real Navigation}
+	Every frame title in this deck is a real \texttt{\textbackslash frametitle}, and every \texttt{\textbackslash section} command both starts a PDF bookmark and groups related frames.
+
+	\begin{itemize}
+		\item Bookmarks let a reader jump between topics without scrolling.
+		\item Tags let a screen reader announce a heading before a frame title, the same way it would for a printed article section.
+		\item Neither happens automatically from font size or boldface alone.
+	\end{itemize}
+
+	\alert{Current limitation:} \texttt{ltx-talk} tags frame titles at heading level H4 rather than H1, since the relationship between frame titles and document sectioning is still being decided upstream. Some checkers may flag this.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Displayed Equations}
+	Use math environments rather than raw display delimiters, so the tagging layer can attach a MathML-oriented alternative to each formula.
+
+	\begin{equation}
+		J(\theta)=\frac{1}{m}\sum_{i=1}^{m}\left(h_\theta(x_i)-y_i\right)^2
+		\label{eq:objective}
+	\end{equation}
+
+	\begin{equation}
+		\theta_{k+1}=\theta_k-\alpha\nabla J(\theta_k)
+		\label{eq:gradient-update}
+	\end{equation}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Lists Near Equations}
+	A short list is often clearer than a dense paragraph when a formula has several symbols.
+
+	\begin{itemize}
+		\item $m$ is the number of observations.
+		\item $h_\theta(x_i)$ is the model prediction for observation $i$.
+		\item $y_i$ is the measured response.
+		\item $\nabla J(\theta_k)$ is the gradient evaluated at iteration $k$.
+	\end{itemize}
+\end{frame}
+
+\section{Tables and Figures}
+
+\begin{frame}
+	\frametitle{A Tagged Table}
+	\begin{table}
+		\centering
+		\caption{Accessibility checks for a presentation PDF.}
+		\label{tab:checklist}
+		\tagpdfsetup{table/header-rows={1}}
+		\begin{tabular}{>{\raggedright\arraybackslash}p{0.32\linewidth}
+				>{\raggedright\arraybackslash}p{0.55\linewidth}}
+			\toprule
+			Check                 & Why it matters                                            \\
+			\midrule
+			Real frame titles     & Screen readers and PDF outlines rely on headings.          \\
+			Figure alt text       & Visual information needs a text alternative.               \\
+			Declared table header & Data cells need a header to remain meaningful out of order. \\
+			Equation environments & Math needs semantic structure, not just glyphs.            \\
+			\bottomrule
+		\end{tabular}
+		\tagpdfsetup{table/header-rows={}}
+	\end{table}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tagged Vector Figure: Workflow}
+	The \texttt{alt} key on the \texttt{tikzpicture} environment gives the diagram a text alternative without changing how it looks.
+
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}[
+			alt={Flow diagram showing a four step accessible presentation workflow:
+					draft semantic source, compile with LuaLaTeX tagging, inspect reading
+					order and alternative text, then publish the tagged PDF and source files.},
+			node distance=1.35cm,
+			font=\small
+			]
+			\tikzset{
+				process/.style={draw=WMGreen, fill=WMGreen!8, rounded corners=2pt, very thick,
+						align=center, text width=2.3cm, minimum height=1cm},
+				check/.style={draw=GriffinGreen, fill=GriffinGreen!10, rounded corners=2pt,
+						very thick, align=center, text width=2.2cm, minimum height=1cm},
+				warn/.style={diamond, draw=WMGold, fill=WMGold!15, very thick,
+						aspect=2, align=center, inner sep=1pt, text width=2.1cm},
+				flowarrow/.style={-{Stealth[length=3mm]}, very thick, draw=black!60}
+			}
+			\node[process] (draft) {\small Draft semantic\\source};
+			\node[process, right=of draft] (compile) {\small Compile with\\LuaLaTeX};
+			\node[warn, right=of compile] (inspect) {Inspect\\output};
+			\node[check, right=of inspect] (publish) {Publish PDF\\and source};
+
+			\draw[flowarrow] (draft) -- node[above, font=\scriptsize] {structure} (compile);
+			\draw[flowarrow] (compile) -- node[above, font=\scriptsize] {tags} (inspect);
+			\draw[flowarrow] (inspect) -- node[above, font=\scriptsize] {fixes} (publish);
+			\draw[flowarrow, bend right=-45] (inspect.south) to node[below, font=\scriptsize] {revise} (draft.south);
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Writing Useful Alternative Text}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\wmblocktitle{GriffinGreen}{white}{Better}
+			Contour plot of a bowl-shaped objective with a descent path moving toward the minimum.
+		\end{column}
+		\begin{column}{0.48\textwidth}
+			\wmblocktitle{BrickRed}{white}{Weaker}
+			Image of a plot with green and gold lines.
+		\end{column}
+	\end{columns}
+
+	\vspace{0.4cm}
+	Good alternative text names the figure type, states the main pattern or conclusion, and includes labels or trends the argument depends on. It rarely needs to list every visual detail.
+\end{frame}
+
+\section{Before You Share}
+
+\begin{frame}
+	\frametitle{Validation Checklist}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\wmblocktitle{WMGold}{black}{Before Compiling}
+			\begin{itemize}
+				\item Real frame titles and sections
+				\item Equation environments, not raw \texttt{\$\$}
+				\item Alt text for every meaningful figure
+				\item Header row declared for every table
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.48\textwidth}
+			\wmblocktitle{WMGold}{black}{After Compiling}
+			\begin{itemize}
+				\item Compiled with \texttt{lualatex}, twice
+				\item PDF reports as tagged
+				\item Title, author, and language are set
+				\item Reading order matches the visual order
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{References}
+	\begin{itemize}
+		\item World Wide Web Consortium. \emph{Web Content Accessibility Guidelines (WCAG) 2.1}. W3C Recommendation, 2018.
+		\item International Organization for Standardization. \emph{ISO 14289-2:2024, Document management applications -- Electronic document file format enhancement for accessibility -- Part 2: Use of ISO 32000-2 (PDF/UA-2)}. ISO, 2024.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Questions?}
+	\textbf{Source:} \texttt{WM\_Accessible\_LuaLaTeX\_Presentation.tex}
+\end{frame}
+
+\end{document}

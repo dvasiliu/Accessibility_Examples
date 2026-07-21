@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}\color {MainBlue}Purpose and Reader Navigation}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\color {DarkGreen}Document Structure}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\color {DarkGreen}Accessible Scientific Claims}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}\color {MainBlue}Mathematics and Notation}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\color {DarkGreen}Displayed Equations}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\color {DarkGreen}Lists Near Equations}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}\color {MainBlue}Tables and Checklists}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\color {DarkGreen}A Tagged Table}{3}{subsection.3.1}%
+\contentsline {section}{\numberline {4}\color {MainBlue}Tagged Vector Figures}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\color {DarkGreen}Workflow Diagram}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}\color {DarkGreen}Plot-Style Figure with Redundant Encoding}{3}{subsection.4.2}%
+\contentsline {section}{\numberline {5}\color {MainBlue}Tagged Raster Graphics}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\color {DarkGreen}Importing a PNG}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}\color {DarkGreen}Writing Useful Alternative Text}{5}{subsection.5.2}%
+\contentsline {section}{\numberline {6}\color {MainBlue}Reproducibility Notes}{5}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\color {DarkGreen}Source and Output}{5}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}\color {DarkGreen}Before Sharing}{5}{subsection.6.2}%

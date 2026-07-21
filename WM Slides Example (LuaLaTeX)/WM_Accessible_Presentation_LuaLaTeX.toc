@@ -1,0 +1,4 @@
+\contentsline {section}{Foundations}{3}{section.1}%
+\contentsline {section}{Structure and Math}{5}{section.2}%
+\contentsline {section}{Tables and Figures}{8}{section.3}%
+\contentsline {section}{Before You Share}{11}{section.4}%
