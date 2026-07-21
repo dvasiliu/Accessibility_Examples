@@ -14,6 +14,19 @@
 
 \documentclass[aspect-ratio=16:9]{ltx-talk}
 
+% ltx-talk tags every \frametitle at heading level H4 by default (the
+% relationship between frame titles and document sectioning is still an
+% open design question upstream -- see the manual, section 14.2), even
+% though \section still correctly tags as H1. On a frame with no
+% preceding \section (e.g. an early "Outline" slide), that H4 is the
+% first heading in the document, which checkers such as Blackboard Ally
+% flag as "headings do not begin at level 1." Promoting frametitle to H1
+% removes that jump; \section headings stay H1 too, so a deck reads as a
+% flat sequence of H1 headings rather than a nested outline, but that
+% trades away a distinction checkers don't require in exchange for one
+% they do.
+\tagpdfsetup{role/new-tag=frametitle/H1}
+
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning, calc, shapes.geometric}
 % amsmath and its math fonts (via unicode-math for LuaTeX) are already
@@ -136,6 +149,16 @@
 \EditInstance{footer}{std}
 	{element-order={date,title}, color=WMGreen}
 
+% \tableofcontents entries already carry the target slide number
+% internally (see the .toc file: \contentsline{section}{Foundations}{3}{...}),
+% but ltx-talk's \l@section leaves the two hook slots meant for
+% rendering it -- contentsline/page/before and .../page/after -- empty
+% by default, so no number ever prints. Filling in .../page/after with
+% a dotted leader gives each entry a classic "Title .......... 3" line;
+% #3 is the slide number (the hook's arguments are level, title, page,
+% destination, per \__talk_toc_level:nnnn in the class source).
+\AddToHookWithArguments{contentsline/page/after}{\dotfill\,#3}
+
 % A two-tone banner, closer to the reference theme's gold-title /
 % green-body block boxes, but keeping every text color at a safe
 % contrast: black-on-gold (~7.6:1) and white-on-green (~8.5:1) both
@@ -205,6 +228,8 @@
 
 \begin{frame}
 	\frametitle{Outline}
+	
+	\vspace*{10mm}
 	\tableofcontents
 \end{frame}
 

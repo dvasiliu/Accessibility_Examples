@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 04:45
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 07:16
  restricted system commands enabled.
-**WM_Accessible_Presentation_LuaLaTeX.tex
-(./WM_Accessible_Presentation_LuaLaTeX.tex
+**WM_Accessible_LuaLaTeX_Presentation.tex
+(./WM_Accessible_LuaLaTeX_Presentation.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -1267,30 +1267,30 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 
 LaTeX template Info: Declaring instance 'header' of type frametitle on line
-(template)           128.
+(template)           141.
 
 
-LaTeX template Info: Declaring instance 'std' of type footer on line 137.
+LaTeX template Info: Declaring instance 'std' of type footer on line 150.
 
 
 LaTeX template Info: Declaring instance 'title' of type titlepage-element on
-(template)           line 153.
+(template)           line 176.
 
 
 LaTeX template Info: Declaring instance 'subtitle' of type titlepage-element
-(template)           on line 154.
+(template)           on line 177.
 
 
 LaTeX template Info: Declaring instance 'author' of type titlepage-element on
-(template)           line 155.
+(template)           line 178.
 
 
 LaTeX template Info: Declaring instance 'institute' of type titlepage-element
-(template)           on line 156.
+(template)           on line 179.
 
 
 LaTeX template Info: Declaring instance 'date' of type titlepage-element on
-(template)           line 157.
+(template)           line 180.
 
 
 (/usr/share/texmf-dist/tex/lualatex/luamml/luamml.sty
@@ -1345,45 +1345,45 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count405
 ))
 
-LaTeX template Info: Declaring instance 'basic' of type item on line 192.
+LaTeX template Info: Declaring instance 'basic' of type item on line 215.
 
 
 LaTeX template Info: Declaring instance 'description' of type item on line
-(template)           192.
+(template)           215.
 
 
-(./WM_Accessible_Presentation_LuaLaTeX.aux)
-\openout1 = WM_Accessible_Presentation_LuaLaTeX.aux
+(./WM_Accessible_LuaLaTeX_Presentation.aux)
+\openout1 = WM_Accessible_LuaLaTeX_Presentation.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
 Inserting `tagpdf' in `pre_shipout_filter'.
 Inserting `tagpdf' in `pre_shipout_filter'.
 
 LaTeX template Info: Declaring instance 'wallpaper' of type header on line
-(template)           192.
+(template)           215.
 
 
 LaTeX template Info: Declaring instance 'wallpaper' of type footer on line
-(template)           192.
+(template)           215.
 
 
 *geometry* driver: auto-detecting
@@ -1420,7 +1420,7 @@ LaTeX template Info: Declaring instance 'wallpaper' of type footer on line
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 192.
+Package hyperref Info: Link coloring OFF on input line 215.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count406
@@ -1445,7 +1445,7 @@ e
 ))
 \g__math_luamml_iow=\write4
 
-\openout4 = WM_Accessible_Presentation_LuaLaTeX-luamml-mathml.html
+\openout4 = WM_Accessible_LuaLaTeX_Presentation-luamml-mathml.html
 
 
 Package tagpdf Info: luamml has been enabled and will create an MathML file.
@@ -1454,14 +1454,14 @@ Package tagpdf Info: luamml has been enabled and will create an MathML file.
 File: logo-assets/wm-cipher-crest-white.png Graphic file (type png)
 <use logo-assets/wm-cipher-crest-white.png>
 Package luatex.def Info: logo-assets/wm-cipher-crest-white.png  used on input l
-ine 203.
+ine 226.
 (luatex.def)             Requested size: 51.3009pt x 51.21504pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./logo-assets/wm-cipher-cr
-est-white.png>] (./WM_Accessible_Presentation_LuaLaTeX.toc)
+est-white.png>] (./WM_Accessible_LuaLaTeX_Presentation.toc)
 <logo-assets/wm-logo-color.png, id=65, 317.988pt x 87.4467pt>
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 209.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 234.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [2
@@ -1469,7 +1469,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 209.
 <./logo-assets/wm-logo-color.png>]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 219.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 244.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [3
@@ -1477,7 +1477,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 219.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 233.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 258.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [4
@@ -1485,7 +1485,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 233.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 248.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 273.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [5
@@ -1493,7 +1493,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 248.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 263.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 288.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [6
@@ -1501,7 +1501,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 263.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 275.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 300.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [7
@@ -1509,7 +1509,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 275.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 299.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 324.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [8
@@ -1517,7 +1517,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 299.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 334.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 359.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [9
@@ -1525,7 +1525,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 334.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 351.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 376.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [10
@@ -1533,7 +1533,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 351.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 377.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 402.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [11
@@ -1541,7 +1541,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 377.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 385.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 410.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [12
@@ -1549,7 +1549,7 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 385.
 ]
 File: logo-assets/wm-logo-color.png Graphic file (type png)
 <use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 390.
+Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 415.
 
 (luatex.def)             Requested size: 22.7612pt x 6.25963pt.
  [13
@@ -1557,9 +1557,9 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 390.
 ]
 \tf@toc=\write5
 
-\openout5 = WM_Accessible_Presentation_LuaLaTeX.toc
-<<latex-list-css.html>><<latex-align-css.html>> (./WM_Accessible_Presentation_L
-uaLaTeX.aux)
+\openout5 = WM_Accessible_LuaLaTeX_Presentation.toc
+<<latex-list-css.html>><<latex-align-css.html>> (./WM_Accessible_LuaLaTeX_Prese
+ntation.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1588,7 +1588,7 @@ Here is how much of LuaTeX's memory you used:
 , 13 attribute_list, 3 write nodes
    avail lists: 2:2389,3:510,4:90,5:120,6:30,7:1830,8:28,9:252,10:20,11:116
  57077 multiletter control sequences out of 65536+600000
- 62 fonts using 25821799 bytes
+ 62 fonts using 25821751 bytes
  136i,11n,108p,480b,1396s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSans10-Obliq
 ue.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSansM
@@ -1598,7 +1598,7 @@ ewCMSansMath-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmmono1
 CMSans08-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
 ern/NewCMSans10-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomp
 utermodern/NewCMSans10-Bold.otf>
-Output written on WM_Accessible_Presentation_LuaLaTeX.pdf (13 pages, 150913 byte
+Output written on WM_Accessible_LuaLaTeX_Presentation.pdf (13 pages, 151521 byte
 s).
 
 PDF statistics: 657 PDF objects out of 1000 (max. 8388607)
