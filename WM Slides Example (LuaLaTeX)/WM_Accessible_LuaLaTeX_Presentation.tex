@@ -34,6 +34,32 @@
 % unicode-math already provides and error out.
 \usepackage{booktabs}
 \usepackage{array}
+% For the GitHub glyph on the closing slide. Font Awesome's icons are
+% CC-BY-4.0-licensed for exactly this kind of reuse, unlike GitHub's own
+% trademarked Octocat mark.
+\usepackage{fontawesome5}
+
+% Wraps decorative inline content (e.g. \faGithub next to a URL that
+% already spells out the same destination as real text) as a PDF
+% artifact, the same way \includegraphics[tag=artifact] does for the
+% logo -- \tag_mc_begin:n{artifact}/\tag_mc_end: is the exact primitive
+% pair the class's own graphic/begin/artifact tagging socket plug uses
+% internally, so this mirrors already-proven behavior rather than
+% inventing a new tagging path. Without this, the glyph is just a
+% Private Use Area codepoint with no defined meaning, and a screen
+% reader encountering it in the tagged text stream has nothing sensible
+% to announce.
+\ExplSyntaxOn
+\newcommand{\wmArtifactText}[1]{%
+	\begingroup
+	\tag_mc_end_push:
+	\tag_mc_begin:n{artifact}
+	#1
+	\tag_mc_end:
+	\tag_mc_begin_pop:n{}
+	\endgroup
+}
+\ExplSyntaxOff
 
 % --- William & Mary color palette ---
 % Hex values follow the live official palette at
@@ -412,8 +438,11 @@
 \begin{frame}
 	\frametitle{Questions?}
 	
-	\vspace*{10mm}
-	\textbf{Source:} \texttt{https://github.com/dvasiliu/Accessibility_Examples}
+	\bigskip
+	\textbf{Source:} \texttt{WM\_Accessible\_LuaLaTeX\_Presentation.tex}
+
+	\bigskip
+	\textbf{Repository:} \wmArtifactText{\faGithub}\ \url{https://github.com/dvasiliu/Accessibility_Examples}
 \end{frame}
 
 \end{document}
