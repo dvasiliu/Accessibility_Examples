@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 07:16
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 07:23
  restricted system commands enabled.
 **WM_Accessible_LuaLaTeX_Presentation.tex
 (./WM_Accessible_LuaLaTeX_Presentation.tex
@@ -1547,62 +1547,43 @@ Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 410.
  [12
 
 ]
-File: logo-assets/wm-logo-color.png Graphic file (type png)
-<use logo-assets/wm-logo-color.png>
-Package luatex.def Info: logo-assets/wm-logo-color.png  used on input line 415.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.417 \end
+          {frame}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-(luatex.def)             Requested size: 22.7612pt x 6.25963pt.
- [13
-
-]
-\tf@toc=\write5
-
-\openout5 = WM_Accessible_LuaLaTeX_Presentation.toc
-<<latex-list-css.html>><<latex-align-css.html>> (./WM_Accessible_LuaLaTeX_Prese
-ntation.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-
-
-Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~401 structure objects
-(tagpdf)             with ~271 'MC' leaf nodes.
-(tagpdf)             Be patient if there are lots of objects!
-
-Package tagpdf Info: writing ParentTree
-Package tagpdf Info: writing IDTree
-Package tagpdf Info: writing RoleMap
-Package tagpdf Info: writing ClassMap
-Package tagpdf Info: writing NameSpaces
-Package tagpdf Info: writing StructElems
-Package tagpdf Info: writing Root
 )
+Runaway argument?
+_Examples\check@icr \expandafter \egroup \fi \tag_struct_end: \__talk_slide_end
+: \ETC.
+! File ended while scanning use of \__math_grab_dollar_delim:w.
+<inserted text> 
+                \par 
+<*> WM_Accessible_LuaLaTeX_Presentation.tex
+                                           
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> WM_Accessible_LuaLaTeX_Presentation.tex
+                                           
+*** (job aborted, no legal \end found)
+
+
 
 Here is how much of LuaTeX's memory you used:
- 35560 strings out of 476076
- 125049,1648299 words of node,token memory allocated
- 589 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 30 attribute, 58 glue_spec
-, 13 attribute_list, 3 write nodes
-   avail lists: 2:2389,3:510,4:90,5:120,6:30,7:1830,8:28,9:252,10:20,11:116
- 57077 multiletter control sequences out of 65536+600000
- 62 fonts using 25821751 bytes
+ 35523 strings out of 476076
+ 125049,1373583 words of node,token memory allocated 1027 words of node memory still in use:
+   6 hlist, 1 vlist, 3 rule, 1 local_par, 3 dir, 5 glue, 5 kern, 1 penalty, 50 g
+lyph, 42 attribute, 61 glue_spec, 17 attribute_list, 3 temp, 1 if_stack, 2 write
+ nodes
+   avail lists: 2:2369,3:510,4:90,5:113,6:29,7:1781,8:28,9:252,10:20,11:118
+ 57052 multiletter control sequences out of 65536+600000
+ 62 fonts using 25821735 bytes
  136i,11n,108p,480b,1396s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSans10-Obliq
-ue.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMSansM
-ath-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/N
-ewCMSansMath-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmmono1
-0-regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/New
-CMSans08-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomputermod
-ern/NewCMSans10-Regular.otf></usr/share/texmf-dist/fonts/opentype/public/newcomp
-utermodern/NewCMSans10-Bold.otf>
-Output written on WM_Accessible_LuaLaTeX_Presentation.pdf (13 pages, 151521 byte
-s).
-
-PDF statistics: 657 PDF objects out of 1000 (max. 8388607)
- 609 compressed objects within 7 object streams
- 41 named destinations out of 1000 (max. 1048576)
- 2283 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
