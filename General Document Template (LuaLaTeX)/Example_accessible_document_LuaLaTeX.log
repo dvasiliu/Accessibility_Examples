@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 04:49
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  21 JUL 2026 13:34
  restricted system commands enabled.
 **Example_accessible_document_LuaLaTeX.tex
 (./Example_accessible_document_LuaLaTeX.tex
@@ -1112,6 +1112,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Floatstructure:304
+
+Overfull \hbox (17.67285pt too wide) in paragraph at lines 192--206
+ [][]\T1/lmr/m/n/10.95 MathML 
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 12.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1156,7 +1161,7 @@ Here is how much of LuaTeX's memory you used:
  595 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 36 attribute, 58 glue_spec
 , 13 attribute_list, 1 write nodes
-   avail lists: 1:1,2:8578,3:1363,4:306,5:329,6:87,7:5504,8:29,9:715,10:9,11:390
+   avail lists: 1:2,2:8585,3:1371,4:306,5:326,6:87,7:5520,8:29,9:717,10:9,11:390
 
  55883 multiletter control sequences out of 65536+600000
  54 fonts using 3480095 bytes
@@ -1173,7 +1178,7 @@ fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
 r10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
 -dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Example_accessible_document_LuaLaTeX.pdf (6 pages, 437197 byte
+Output written on Example_accessible_document_LuaLaTeX.pdf (6 pages, 437152 byte
 s).
 
 PDF statistics: 867 PDF objects out of 1000 (max. 8388607)
